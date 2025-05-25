@@ -712,6 +712,16 @@
               <FileType>8</FileType>
               <FilePath>..\User\device\dvc_encodermotor.cpp</FilePath>
             </File>
+            <File>
+              <FileName>dvc_dwt.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\User\device\dvc_dwt.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>dvc_lkmotor.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\User\device\dvc_lkmotor.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -747,6 +757,21 @@
               <FileType>8</FileType>
               <FilePath>..\User\middleware\drv\drv_uart.cpp</FilePath>
             </File>
+            <File>
+              <FileName>drv_adc.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\User\middleware\drv\drv_adc.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>drv_dwt.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\User\middleware\drv\drv_dwt.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>drv_i2c.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\User\middleware\drv\drv_i2c.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -768,9 +793,6 @@
               <FilePath>..\User\task\task.cpp</FilePath>
             </File>
           </Files>
-        </Group>
-        <Group>
-          <GroupName>::CMSIS</GroupName>
         </Group>
         <Group>
           <GroupName>Middlewares/Library/DSP Library/DSP Library</GroupName>
@@ -869,6 +891,9 @@
               </FileOption>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
